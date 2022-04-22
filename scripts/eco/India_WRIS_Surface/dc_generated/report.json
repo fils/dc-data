@@ -1,0 +1,245 @@
+{
+  "levelSummary": {
+    "LEVEL_ERROR": {
+      "counters": {
+        "Sanity_TmcfMissingColumn": "27"
+      }
+    },
+    "LEVEL_FATAL": {
+      "counters": {
+        "CSV_TmcfCheckFailure": "1"
+      }
+    }
+  },
+  "entries": [{
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "271"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Sodium absorption ratio (SAR)"', node: 'E:India_WRIS_Surface->E26'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "281"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Total Dissolved Solids"', node: 'E:India_WRIS_Surface->E27'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "292"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Potential of Hydrogen (pH)"', node: 'E:India_WRIS_Surface->E28'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "229"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Electrical Conductivity"', node: 'E:India_WRIS_Surface->E22'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "239"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Hardness Total"', node: 'E:India_WRIS_Surface->E23'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "250"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Alkalinity Total"', node: 'E:India_WRIS_Surface->E24'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "261"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Residual Sodium Carbonate"', node: 'E:India_WRIS_Surface->E25'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "207"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Zinc (Zn)"', node: 'E:India_WRIS_Surface->E20'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "218"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Disolved Oxygen (DO)"', node: 'E:India_WRIS_Surface->E21'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "20"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Arsenic (As)"', node: 'E:India_WRIS_Surface->E3'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "9"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Aluminium (Al)"', node: 'E:India_WRIS_Surface->E2'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "196"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Silicon dioxide (SiO2)"', node: 'E:India_WRIS_Surface->E19'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "86"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Iron (Fe)"', node: 'E:India_WRIS_Surface->E9'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "75"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Fluorine (F)"', node: 'E:India_WRIS_Surface->E8'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "64"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Chloride (Cl)"', node: 'E:India_WRIS_Surface->E7'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "152"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Nitrate (NO3)"', node: 'E:India_WRIS_Surface->E15'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "53"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Calcium (Ca)"', node: 'E:India_WRIS_Surface->E6'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "163"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Lead (Pb)"', node: 'E:India_WRIS_Surface->E16'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "42"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Carbonate (CO3)"', node: 'E:India_WRIS_Surface->E5'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "174"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Silver (Ag)"', node: 'E:India_WRIS_Surface->E17'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "31"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"cyanides (CN)"', node: 'E:India_WRIS_Surface->E4'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "185"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Sulfate (SO4)"', node: 'E:India_WRIS_Surface->E18'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "108"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Mercury (Hg)"', node: 'E:India_WRIS_Surface->E11'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "119"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Potassium (K)"', node: 'E:India_WRIS_Surface->E12'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "130"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Magnesium (Mg)"', node: 'E:India_WRIS_Surface->E13'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "141"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"ammonia (NH3)"', node: 'E:India_WRIS_Surface->E14'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_ERROR",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "97"
+    },
+    "userMessage": "Column referred to in TMCF is missing from CSV header :: column: '"Hydrogencarbonate (HCO3)"', node: 'E:India_WRIS_Surface->E10'",
+    "counterKey": "Sanity_TmcfMissingColumn"
+  }, {
+    "level": "LEVEL_FATAL",
+    "location": {
+      "file": "India_WRIS_Surface.tmcf",
+      "lineNumber": "0"
+    },
+    "userMessage": "Found fatal sanity error in TMCF; check Sanity_ counter messages :: TMCF-file: India_WRIS_Surface.tmcf",
+    "counterKey": "CSV_TmcfCheckFailure"
+  }],
+  "commandArgs": {
+    "existenceChecks": true,
+    "resolution": "RESOLUTION_MODE_LOCAL",
+    "numThreads": 1,
+    "statChecks": true
+  }
+}

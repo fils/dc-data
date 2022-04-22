@@ -1,0 +1,289 @@
+Node: dcid:Concentration_Sulfate_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Sulfate_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Sulfate
+name: "Concentration of Sulfate", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Arsenic_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Arsenic_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Arsenic
+name: "Concentration of Arsenic", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:PotentialOfHydrogen_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "PotentialOfHydrogen_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "PotentialOfHydrogen", "Surface Water"
+measuredProperty: dcid:potentialOfHydrogen
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_HydrogenCarbonate_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_HydrogenCarbonate_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:HydrogenCarbonate
+name: "Concentration of HydrogenCarbonate", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:WaterAlkalinity_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "WaterAlkalinity_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "Surface Water", "WaterAlkalinity"
+measuredProperty: dcid:waterAlkalinity
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Potassium_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Potassium_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Potassium
+name: "Concentration of Potassium", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Iron_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Iron_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Iron
+name: "Concentration of Iron", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:DissolvedOxygen_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "DissolvedOxygen_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "DissolvedOxygen", "Surface Water"
+measuredProperty: dcid:dissolvedOxygen
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Ammonia_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Ammonia_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Ammonia
+name: "Concentration of Ammonia", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Lead_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Lead_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Lead
+name: "Concentration of Lead", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:TotalDissolvedSolids_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "TotalDissolvedSolids_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "TotalDissolvedSolids", "Surface Water"
+measuredProperty: dcid:totalDissolvedSolids
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Cyanide_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Cyanide_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Cyanide
+name: "Concentration of Cyanide", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Aluminium_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Aluminium_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Aluminium
+name: "Concentration of Aluminium", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Silver_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Silver_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Silver
+name: "Concentration of Silver", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_SiliconDioxide_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_SiliconDioxide_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:SiliconDioxide
+name: "Concentration of SiliconDioxide", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Zinc_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Zinc_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Zinc
+name: "Concentration of Zinc", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Carbonate_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Carbonate_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Carbonate
+name: "Concentration of Carbonate", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Chloride_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Chloride_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Chloride
+name: "Concentration of Chloride", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Mercury_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Mercury_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Mercury
+name: "Concentration of Mercury", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Nitrate_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Nitrate_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Nitrate
+name: "Concentration of Nitrate", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:ElectricalConductivity_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "ElectricalConductivity_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "ElectricalConductivity", "Surface Water"
+measuredProperty: dcid:electricalConductivity
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:WaterHardness_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "WaterHardness_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "WaterHardness", "Surface Water"
+measuredProperty: dcid:waterHardness
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Calcium_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Calcium_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Calcium
+name: "Concentration of Calcium", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:SodiumAbsorptionRatio_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "SodiumAbsorptionRatio_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "Surface Water", "SodiumAbsorptionRatio"
+measuredProperty: dcid:sodiumAbsorptionRatio
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Fluorine_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Fluorine_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Fluorine
+name: "Concentration of Fluorine", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:ResidualSodiumCarbonate_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "ResidualSodiumCarbonate_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+waterSource: dcid:SurfaceWater
+name: "ResidualSodiumCarbonate", "Surface Water"
+measuredProperty: dcid:residualSodiumCarbonate
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
+Node: dcid:Concentration_Magnesium_BodyOfWater_SurfaceWater
+populationType: dcid:BodyOfWater
+dcid: "Concentration_Magnesium_BodyOfWater_SurfaceWater"
+statType: dcid:measuredValue
+contaminatedThing: dcid:SurfaceWater
+contaminant: dcid:Magnesium
+name: "Concentration of Magnesium", "SurfaceWater"
+measuredProperty: dcid:concentration
+measurementMethod: dcid:WRIS_India
+typeOf: dcid:StatisticalVariable
+
