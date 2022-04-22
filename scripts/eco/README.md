@@ -5,8 +5,6 @@
 Some document being used to explore Data Commons at ECO.  
 More a learn by inspection process right now.
 
-
-
 ## Notes
 
 * Fukushima test dataset:  https://www.bco-dmo.org/dataset/3566  
@@ -48,7 +46,6 @@ unit: dcid:MillilitrePerLitre  #  NOTE  made this up too
 
 based on
 
-
 ```
 Node: E:India_WRIS_Surface->E2
 typeOf: dcid:StatVarObservation
@@ -61,3 +58,21 @@ measuredProperty: dcs:concentration
 value: C:India_WRIS_Surface->"Aluminium (Al)"
 unit: dcid:MilligramsPerLitre
 ```
+
+
+## Spatial alignment
+
+We will have a mix of geosparql, linked GeoJSON, schema.org (address and place) and likely more.  Aligning these into some space is needed.  Looking at OGC Discrete Grid and specifically the Uber H3 work
+at [https://eng.uber.com/h3/](https://eng.uber.com/h3/) and [https://h3geo.org/docs/quickstart](https://h3geo.org/docs/quickstart).
+
+Especially things like the [compacted cell approaches](https://h3geo.org/docs/highlights/indexing).  Thoguhts
+include:
+
+* Parquet + rapids + dask to h3 inspection  (too slow?)
+  * [https://github.com/uber/h3-js/issues/100](https://github.com/uber/h3-js/issues/100)
+* Other bindings like Go and Rust
+* [https://github.com/uber/h3-py-notebooks](https://github.com/uber/h3-py-notebooks)
+* Can h3 be indexed and queried like GeoHash + redis can be?
+
+
+
