@@ -1,301 +1,301 @@
-Node: E:India_WRIS_Surface->E0
-dcid: C:India_WRIS_Surface->dcid
+Node: E:Niskin_bottle_samples->E0
+dcid: C:Niskin_bottle_samples->dcid  ## NOTE dcid column does not exist.. could make a H3 value array?
 typeOf: dcs:WaterQualitySite
 
-Node: E:India_WRIS_Surface->E1
+Node: E:Niskin_bottle_samples->E1
 typeOf: dcs:Place
-lgdCode: C:India_WRIS_Surface->DistrictCode
+lgdCode: C:Niskin_bottle_samples->latlon  # NOTE location is not a single column, make a WKT string?  lgdCode is what
 
-Node: E:India_WRIS_Surface->E2
+Node: E:Niskin_bottle_samples->E2
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
-observationPeriod: "P1M"
-variableMeasured: dcid:Concentration_Aluminium_BodyOfWater_SurfaceWater
-measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Aluminium (Al)"
-unit: dcid:MilligramsPerLitre
+observationDate: C:Niskin_bottle_samples->date
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
+observationPeriod: "P1M"   # NOTE  Where is this defined?
+variableMeasured: dcid:Dissolved_oxygen_from_Niskin_bottle_sample  # NOTE  Do we make this?????
+measuredProperty: dcs:concentration   # Note:   interesting..   this is ml / L  so use..   ontology of measurements?  
+value: C:Niskin_bottle_samples->"dissolved Oxygen"
+unit: dcid:MillilitrePerLitre  #  NOTE  made this up too  
 
-Node: E:India_WRIS_Surface->E3
+Node: E:Niskin_bottle_samples->E3
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Arsenic_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Arsenic (As)"
+value: C:Niskin_bottle_samples->"Arsenic (As)"
 unit: dcid:MicrogramsPerLitre
 
-Node: E:India_WRIS_Surface->E4
+Node: E:Niskin_bottle_samples->E4
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Cyanide_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"cyanides (CN)"
+value: C:Niskin_bottle_samples->"cyanides (CN)"
 unit: dcid:MicrogramsPerLitre
 
-Node: E:India_WRIS_Surface->E5
+Node: E:Niskin_bottle_samples->E5
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Carbonate_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Carbonate (CO3)"
+value: C:Niskin_bottle_samples->"Carbonate (CO3)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E6
+Node: E:Niskin_bottle_samples->E6
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Calcium_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Calcium (Ca)"
+value: C:Niskin_bottle_samples->"Calcium (Ca)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E7
+Node: E:Niskin_bottle_samples->E7
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Chloride_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Chloride (Cl)"
+value: C:Niskin_bottle_samples->"Chloride (Cl)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E8
+Node: E:Niskin_bottle_samples->E8
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Fluorine_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Fluorine (F)"
+value: C:Niskin_bottle_samples->"Fluorine (F)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E9
+Node: E:Niskin_bottle_samples->E9
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Iron_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Iron (Fe)"
+value: C:Niskin_bottle_samples->"Iron (Fe)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E10
+Node: E:Niskin_bottle_samples->E10
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_HydrogenCarbonate_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Hydrogencarbonate (HCO3)"
+value: C:Niskin_bottle_samples->"Hydrogencarbonate (HCO3)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E11
+Node: E:Niskin_bottle_samples->E11
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Mercury_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Mercury (Hg)"
+value: C:Niskin_bottle_samples->"Mercury (Hg)"
 unit: dcid:MicrogramsPerLitre
 
-Node: E:India_WRIS_Surface->E12
+Node: E:Niskin_bottle_samples->E12
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Potassium_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Potassium (K)"
+value: C:Niskin_bottle_samples->"Potassium (K)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E13
+Node: E:Niskin_bottle_samples->E13
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Magnesium_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Magnesium (Mg)"
+value: C:Niskin_bottle_samples->"Magnesium (Mg)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E14
+Node: E:Niskin_bottle_samples->E14
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Ammonia_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"ammonia (NH3)"
+value: C:Niskin_bottle_samples->"ammonia (NH3)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E15
+Node: E:Niskin_bottle_samples->E15
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Nitrate_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Nitrate (NO3)"
+value: C:Niskin_bottle_samples->"Nitrate (NO3)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E16
+Node: E:Niskin_bottle_samples->E16
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Lead_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Lead (Pb)"
+value: C:Niskin_bottle_samples->"Lead (Pb)"
 unit: dcid:MicrogramsPerLitre
 
-Node: E:India_WRIS_Surface->E17
+Node: E:Niskin_bottle_samples->E17
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Silver_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Silver (Ag)"
+value: C:Niskin_bottle_samples->"Silver (Ag)"
 unit: dcid:MicrogramsPerLitre
 
-Node: E:India_WRIS_Surface->E18
+Node: E:Niskin_bottle_samples->E18
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Sulfate_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Sulfate (SO4)"
+value: C:Niskin_bottle_samples->"Sulfate (SO4)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E19
+Node: E:Niskin_bottle_samples->E19
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_SiliconDioxide_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Silicon dioxide (SiO2)"
+value: C:Niskin_bottle_samples->"Silicon dioxide (SiO2)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E20
+Node: E:Niskin_bottle_samples->E20
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:Concentration_Zinc_BodyOfWater_SurfaceWater
 measuredProperty: dcs:concentration
-value: C:India_WRIS_Surface->"Zinc (Zn)"
+value: C:Niskin_bottle_samples->"Zinc (Zn)"
 unit: dcid:MicrogramsPerLitre
 
-Node: E:India_WRIS_Surface->E21
+Node: E:Niskin_bottle_samples->E21
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:DissolvedOxygen_BodyOfWater_SurfaceWater
 measuredProperty: dcs:dissolvedOxygen
-value: C:India_WRIS_Surface->"Disolved Oxygen (DO)"
+value: C:Niskin_bottle_samples->"Disolved Oxygen (DO)"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E22
+Node: E:Niskin_bottle_samples->E22
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:ElectricalConductivity_BodyOfWater_SurfaceWater
 measuredProperty: dcs:electricalConductivity
-value: C:India_WRIS_Surface->"Electrical Conductivity"
+value: C:Niskin_bottle_samples->"Electrical Conductivity"
 
-Node: E:India_WRIS_Surface->E23
+Node: E:Niskin_bottle_samples->E23
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:WaterHardness_BodyOfWater_SurfaceWater
 measuredProperty: dcs:waterHardness
-value: C:India_WRIS_Surface->"Hardness Total"
+value: C:Niskin_bottle_samples->"Hardness Total"
 unit: dcid:MilligramsCaCO3PerLitre
 
-Node: E:India_WRIS_Surface->E24
+Node: E:Niskin_bottle_samples->E24
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:WaterAlkalinity_BodyOfWater_SurfaceWater
 measuredProperty: dcs:waterAlkalinity
-value: C:India_WRIS_Surface->"Alkalinity Total"
+value: C:Niskin_bottle_samples->"Alkalinity Total"
 unit: dcid:MilligramsCaCO3PerLitre
 
-Node: E:India_WRIS_Surface->E25
+Node: E:Niskin_bottle_samples->E25
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:ResidualSodiumCarbonate_BodyOfWater_SurfaceWater
 measuredProperty: dcs:residualSodiumCarbonate
-value: C:India_WRIS_Surface->"Residual Sodium Carbonate"
+value: C:Niskin_bottle_samples->"Residual Sodium Carbonate"
 
-Node: E:India_WRIS_Surface->E26
+Node: E:Niskin_bottle_samples->E26
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:SodiumAbsorptionRatio_BodyOfWater_SurfaceWater
 measuredProperty: dcs:sodiumAbsorptionRatio
-value: C:India_WRIS_Surface->"Sodium absorption ratio (SAR)"
+value: C:Niskin_bottle_samples->"Sodium absorption ratio (SAR)"
 
-Node: E:India_WRIS_Surface->E27
+Node: E:Niskin_bottle_samples->E27
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:TotalDissolvedSolids_BodyOfWater_SurfaceWater
 measuredProperty: dcs:totalDissolvedSolids
-value: C:India_WRIS_Surface->"Total Dissolved Solids"
+value: C:Niskin_bottle_samples->"Total Dissolved Solids"
 unit: dcid:MilligramsPerLitre
 
-Node: E:India_WRIS_Surface->E28
+Node: E:Niskin_bottle_samples->E28
 typeOf: dcid:StatVarObservation
-observationDate: C:India_WRIS_Surface->Month
-observationAbout: E:India_WRIS_Surface->E0
-containedIn: E:India_WRIS_Surface->E1
+observationDate: C:Niskin_bottle_samples->Month
+observationAbout: E:Niskin_bottle_samples->E0
+containedIn: E:Niskin_bottle_samples->E1
 observationPeriod: "P1M"
 variableMeasured: dcid:PotentialOfHydrogen_BodyOfWater_SurfaceWater
 measuredProperty: dcs:potentialOfHydrogen
-value: C:India_WRIS_Surface->"Potential of Hydrogen (pH)"
+value: C:Niskin_bottle_samples->"Potential of Hydrogen (pH)"
 

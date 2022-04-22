@@ -1,0 +1,394 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://www.bco-dmo.org/dataset/3566",
+    "identifier": [
+        "http://lod.bco-dmo.org/id/dataset/3566",
+        {
+            "@type": "PropertyValue",
+            "@id": "https://doi.org/10.1575/1912/5258",
+            "propertyID": "https://registry.identifiers.org/registry/doi",
+            "value": "doi:10.1575/1912/5258",
+            "url": "https://doi.org/10.1575/1912/5258"
+        }
+    ],
+    "url": "https://www.bco-dmo.org/dataset/3566",
+    "@type": "Dataset",
+    "name": "Calibrated CTD salinity and oxygen and Niskin bottle water samples from the R/V Ka\u0027imikai-o-Kanaloa KOK1108 cruise in June 2011 in the Northwest Pacific Ocean (Fukushima Radionuclide Levels project)",
+    "alternateName": "Niskin bottle samples",
+    "description": "\u003Cp\u003ECalibrated CTD measurements of salinity and oxygen at water sample depths and Niskin bottle water samples of salinity and oxygen.\u003C/p\u003E\r\n\u003Cp\u003EPotential temperature and density were derived from calibrated CTD measurements.\u003C/p\u003E",
+    "isAccessibleForFree": true,
+    "datePublished": "2011-10-20",
+    "keywords": "oceans",
+    "creator": [
+        {
+            "@type": "Person",
+            "@id": "https://www.bco-dmo.org/person/50522",
+            "name": "Kenneth O. Buesseler",
+            "url": "https://www.bco-dmo.org/person/50522",
+            "identifier": {
+                "@id": "https://orcid.org/0000-0001-7362-8796",
+                "@type": "PropertyValue",
+                "propertyID": "https://registry.identifiers.org/registry/orcid",
+                "value": "orcid:0000-0001-7362-8796",
+                "url": "https://orcid.org/0000-0001-7362-8796"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://www.bco-dmo.org/person/51384",
+            "name": "Dr Steven  R. Jayne",
+            "url": "https://www.bco-dmo.org/person/51384"
+        }
+    ],
+    "version": "20 October 2011",
+    "license": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://spdx.org/licenses/CC-BY-4.0"
+    ],
+    "publisher": {
+        "@id": "https://www.bco-dmo.org",
+        "@type": "Organization",
+        "name": "Biological and Chemical Data Management Office",
+        "alternateName": "BCO-DMO",
+        "identifier": "http://lod.bco-dmo.org/id/affiliation/191",
+        "url": "https://www.bco-dmo.org",
+        "sameAs": "http://www.re3data.org/repository/r3d100000012"
+    },
+    "provider": {
+        "@id": "https://www.bco-dmo.org"
+    },
+    "producer": [
+        {
+            "@type": "ResearchProject",
+            "@id": "https://www.bco-dmo.org/project/2171",
+            "name": "Establishing Radionuclide Levels in the Atlantic and Pacific Oceans Originating from the Fukushima Daiichi Nuclear Power Facility",
+            "alternateName": "Fukushima Radionuclide Levels",
+            "description": "The March 11, 2011 earthquake in Japan and the subsequent tsunami damaged and disrupted cooling systems at the Fukushima Daiichi nuclear power facility causing contamination of land and seas surrounding the site, as well as food supplies and drinking water. Small but measurable quantities of radioactivity have been detected in the atmosphere over the United States, including aerosol samples collected at the Woods Hole Oceanographic Institution, where I-131 was seen to increase to detectable levels as of March 21-22, 2011.\nWith major funding from the Moore Foundation, as well as a contribution from the National Science Foundation through a 2011 Grant for Rapid Response Research (RAPID) and support from the Woods Hole Oceanographic Institution, collaborating investigators from the United States, Japan, Spain, Monaco, and the United Kingdom were able to obtain samples off Japan for an early assessment of impacts.\nFrom June 4 through June 19, 2011, a research cruise was carried out aboard the RV Kaimikai-O-Kanaloa, a research vessel operated by the University of Hawaii. During the cruise, hundreds of samples were collected in an area off the coast of Japan as close as 30 kilometers from the Fukushima Nuclear Power Plant and extending as far out as 600 kilometers off shore. The essential components of the program include: radionuclide measurements of water and particles; a radioecological study of biota, especially species at the base of the food chain and key fish species and a physical oceanographic study to characterize transport and water masses. A baseline radionuclide data set for the Atlantic and Pacific was obtained along an east to west network of sampling stations.  Three hundred sampling events took place at thirty major stations for a total of more than 1500 samples.  Along with 41 CTD stations, bottle samples of salinity, oxygen, radionuclides, and particulates were taken to depths of about 1000 meters. A list of the radionuclides sampled and a sampling summary map is available. One hundred net tows resulted in approximately fifty pounds of biological samples, including plankton and small fish.  Daily samples of aerosol were also taken.\nEarly investigation following an accidental release of man-made radionuclides is key to understanding the magnitude of the release and the relationship to public health issues  The research results also set the stage for the use of the longer lived radionuclides as tracers in subsequent studies by the community to understand ocean processes.\n",
+            "url": "https://www.bco-dmo.org/project/2171"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "contentUrl": "https://www.bco-dmo.org/dataset/3566/data/download",
+            "encodingFormat": "text/tab-separated-values",
+            "datePublished": "2011-10-20",
+            "creativeWorkStatus": "In Review"
+        }
+    ],
+    "subjectOf": [
+        {
+            "@type": "DataDownload",
+            "name": "ISO 19115-2 (NOAA Profile)",
+            "contentUrl": "https://www.bco-dmo.org/dataset/3566/iso",
+            "encodingFormat": [
+                "http://www.isotc211.org/2005/gmd-noaa",
+                "application/xml"
+            ],
+            "encodesCreativeWork": "https://www.bco-dmo.org/dataset/3566",
+            "creativeWorkStatus": "In Review",
+            "about": "https://www.bco-dmo.org/dataset/3566"
+        }
+    ],
+    "measurementTechnique": [
+        "Niskin bottle",
+        "CTD Sea-Bird SBE 911plus"
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26176",
+            "name": "sal_cal",
+            "alternateName": "sal",
+            "description": "salinity from CTD sensor calibrated to Niskin water samples",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "salinity",
+                "@id": "https://www.bco-dmo.org/parameter/955",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "PSU"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26177",
+            "name": "O2_cal",
+            "alternateName": "O2_ml_L",
+            "description": "oxygen from CTD sensor calibrated to water samples",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "dissolved Oxygen",
+                "@id": "https://www.bco-dmo.org/parameter/1198",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "milliliters/liter"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26178",
+            "name": "temp",
+            "alternateName": "temperature",
+            "description": "temperature",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "water temperature",
+                "@id": "https://www.bco-dmo.org/parameter/733",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "degrees C"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26179",
+            "name": "potemp",
+            "alternateName": "potemp",
+            "description": "potential temperature",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "potential temperature",
+                "@id": "https://www.bco-dmo.org/parameter/936",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "degrees C"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26180",
+            "name": "press",
+            "alternateName": "pressure",
+            "description": "pressure",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "water pressure",
+                "@id": "https://www.bco-dmo.org/parameter/732",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "decibars"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26200",
+            "name": "depth",
+            "alternateName": "depth",
+            "description": "sample depth",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "depth",
+                "@id": "https://www.bco-dmo.org/parameter/808",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "meter"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26201",
+            "name": "o2_nis",
+            "alternateName": "O2_ml_L",
+            "description": "Dissolved oxygen from Niskin bottle sample",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "dissolved Oxygen",
+                "@id": "https://www.bco-dmo.org/parameter/1198",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "milliliters/liter"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26202",
+            "name": "sal_nis",
+            "alternateName": "sal_bottle",
+            "description": "Salinity from Niskin bottle sample",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "bottle salinity",
+                "@id": "https://www.bco-dmo.org/parameter/956",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "PSA"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/26203",
+            "name": "sigma_0",
+            "alternateName": "sigma_0",
+            "description": "potential density",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "sigma-theta",
+                "@id": "https://www.bco-dmo.org/parameter/971",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "kilograms/meter^3"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27083",
+            "name": "cast",
+            "alternateName": "cast",
+            "description": "cast number",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "cast",
+                "@id": "https://www.bco-dmo.org/parameter/761",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "dimensionless"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27084",
+            "name": "event",
+            "alternateName": "event ",
+            "description": "Event id",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "event ",
+                "@id": "https://www.bco-dmo.org/parameter/829",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "dimensionless"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27085",
+            "name": "date",
+            "alternateName": "date",
+            "description": "Date of cast. format:\u00a0YYYYmmdd",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "date",
+                "@id": "https://www.bco-dmo.org/parameter/1070",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "unitless"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27086",
+            "name": "time",
+            "alternateName": "time",
+            "description": "Time of cast",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "time of day",
+                "@id": "https://www.bco-dmo.org/parameter/1075",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "hhmm"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27087",
+            "name": "lat",
+            "alternateName": "latitude",
+            "description": "latitude of cast",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "latitude",
+                "@id": "https://www.bco-dmo.org/parameter/730",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27088",
+            "name": "lon",
+            "alternateName": "longitude",
+            "description": "longitude of cast",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "longitude",
+                "@id": "https://www.bco-dmo.org/parameter/731",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "degrees"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27089",
+            "name": "prmax",
+            "alternateName": "pressure maximum",
+            "description": "maximum pressure recorded during cast",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "maximum pressure",
+                "@id": "https://www.bco-dmo.org/parameter/1847",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "decibars"
+        },
+        {
+            "@type": "PropertyValue",
+            "@id": "https://www.bco-dmo.org/dataset-parameter/27144",
+            "name": "bot_Nis",
+            "alternateName": "bot_Nis",
+            "description": "Niskin bottle number",
+            "valueReference": {
+                "@type": "PropertyValue",
+                "name": "Niskin bottle number",
+                "@id": "https://www.bco-dmo.org/parameter/1854",
+                "propertyID": "https://www.bco-dmo.org/parameter/"
+            },
+            "unitText": "dimensionless"
+        }
+    ],
+    "funder": [
+        {
+            "@id": "https://www.bco-dmo.org/node/355",
+            "@type": "FundingAgency",
+            "name": "NSF Division of Ocean Sciences",
+            "alternateName": "NSF OCE",
+            "identifier": {
+                "@id": "https://doi.org/10.13039/100000141",
+                "@type": "PropertyValue",
+                "propertyID": "https://registry.identifiers.org/registry/doi",
+                "value": "doi:10.13039/100000141",
+                "url": "https://doi.org/10.13039/100000141"
+            }
+        },
+        {
+            "@id": "https://www.bco-dmo.org/node/361",
+            "@type": "FundingAgency",
+            "name": "Gordon and Betty Moore Foundation",
+            "alternateName": "GBMF",
+            "identifier": {
+                "@id": "https://doi.org/10.13039/100000936",
+                "@type": "PropertyValue",
+                "propertyID": "https://registry.identifiers.org/registry/doi",
+                "value": "doi:10.13039/100000936",
+                "url": "https://doi.org/10.13039/100000936"
+            }
+        }
+    ],
+    "about": [
+        {
+            "@id": "http://lod.bco-dmo.org/id/award/54674",
+            "@type": "MonetaryGrant",
+            "name": "OCE-1136693",
+            "url": "https://www.bco-dmo.org/award/54674",
+            "funder": {
+                "@id": "https://www.bco-dmo.org/node/355"
+            },
+            "sameAs": "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1136693",
+            "sponsor": {
+                "@type": "Person",
+                "@id": "http://lod.bco-dmo.org/id/person/51467",
+                "name": "Donald L. Rice",
+                "url": "https://www.bco-dmo.org/person/51467"
+            }
+        },
+        {
+            "@id": "http://lod.bco-dmo.org/id/award/55069",
+            "@type": "MonetaryGrant",
+            "name": "unknown Fukushima Radionuclide Levels Moore",
+            "url": "https://www.bco-dmo.org/award/55069",
+            "funder": {
+                "@id": "https://www.bco-dmo.org/node/361"
+            }
+        }
+    ]
+}
